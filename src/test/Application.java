@@ -1,8 +1,7 @@
 package test;
 
-import gerenciamentodeclientes.dominio.Cliente;
-import gerenciamentodeclientes.dominio.SistemaDeClientes;
-
+import dominio.Cliente;
+import dominio.SistemaDeClientes;
 
 import java.util.Scanner;
 

@@ -1,7 +1,6 @@
 package util;
 
-import gerenciamentodeclientes.dominio.Cliente;
-
+import dominio.Cliente;
 import java.util.Comparator;
 
 public class OrdenaPorNome implements Comparator<Cliente> {

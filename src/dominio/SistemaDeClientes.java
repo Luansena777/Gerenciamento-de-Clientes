@@ -1,8 +1,8 @@
 package dominio;
 
-import gerenciamentodeclientes.exception.ClienteException;
-import gerenciamentodeclientes.exception.CpfException;
-import gerenciamentodeclientes.util.OrdenaPorNome;
+import exception.ClienteException;
+import exception.CpfException;
+import util.OrdenaPorNome;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,8 @@
 package dominio;
 
-import gerenciamentodeclientes.exception.CpfException;
-import gerenciamentodeclientes.util.Validador;
+
+import exception.CpfException;
+import util.Validador;
 
 public class Cliente {
     private String nome;
@@ -38,7 +39,7 @@ public class Cliente {
     }
 
     public void setCpf(String cpf) {
-        if (!Validador.validarCpf(cpf)){
+        if (!Validador.validarCpf(cpf)) {
             throw new CpfException("O CPF " + cpf + " é inválido!");
         }
         this.cpf = cpf;
